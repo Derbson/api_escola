@@ -3,7 +3,7 @@ from .views import alunos
 
 
 urlpatterns = [
-    path('alunos', alunos)
+    path('alunos/', alunos)
 ]
 
 
