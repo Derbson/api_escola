@@ -8,7 +8,7 @@ class AlunoSerializer(serializers.ModelSerializer):
 
 class CursoSerializer(serializers.ModelSerializer):
     class Meta:
-        models = Curso
+        model = Curso
         fields = "__all__"
 
 
